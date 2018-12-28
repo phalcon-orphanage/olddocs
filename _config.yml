@@ -14,9 +14,6 @@ social:
   rss: phalcon
   twitter: phalconphp
 
-meta:
-  analytics: 'UA-90300500-9'
-
 include:
   - 'docs'
 
