@@ -7,8 +7,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
     <title>View Helpers &mdash; Phalcon 2.0.0 documentation</title>
-    <link href="http://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet" type="text/css" />
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/assets/pygments.css" type="text/css" />
     <link rel="stylesheet" href="/assets/style.css" type="text/css" />
     <link rel="stylesheet" href="/assets/fonts.css" type="text/css" />
@@ -566,16 +566,16 @@ The following example demonstrates just that:</p>
 <h3>Stylesheets<a class="headerlink" href="#stylesheets" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-php"><div class="highlight"><pre><span class="cp">&lt;?php</span>
 
-<span class="c1">// Generate &lt;link rel=&quot;stylesheet&quot; href=&quot;http://fonts.googleapis.com/css?family=Rosario&quot; type=&quot;text/css&quot;&gt;</span>
-<span class="k">echo</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">tag</span><span class="o">-&gt;</span><span class="na">stylesheetLink</span><span class="p">(</span><span class="s2">&quot;http://fonts.googleapis.com/css?family=Rosario&quot;</span><span class="p">,</span> <span class="k">false</span><span class="p">);</span>
+<span class="c1">// Generate &lt;link rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/css?family=Rosario&quot; type=&quot;text/css&quot;&gt;</span>
+<span class="k">echo</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">tag</span><span class="o">-&gt;</span><span class="na">stylesheetLink</span><span class="p">(</span><span class="s2">&quot;https://fonts.googleapis.com/css?family=Rosario&quot;</span><span class="p">,</span> <span class="k">false</span><span class="p">);</span>
 
 <span class="c1">// Generate &lt;link rel=&quot;stylesheet&quot; href=&quot;/your-app/css/styles.css&quot; type=&quot;text/css&quot;&gt;</span>
 <span class="k">echo</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">tag</span><span class="o">-&gt;</span><span class="na">stylesheetLink</span><span class="p">(</span><span class="s2">&quot;css/styles.css&quot;</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>Volt syntax:</p>
-<div class="highlight-jinja"><div class="highlight"><pre><span class="c">{# Generate &lt;link rel=&quot;stylesheet&quot; href=&quot;http://fonts.googleapis.com/css?family=Rosario&quot; type=&quot;text/css&quot;&gt; #}</span><span class="x"></span>
-<span class="cp">{{</span> <span class="nv">stylesheet_link</span><span class="o">(</span><span class="s2">&quot;http://fonts.googleapis.com/css?family=Rosario&quot;</span><span class="o">,</span> <span class="kp">false</span><span class="o">)</span> <span class="cp">}}</span><span class="x"></span>
+<div class="highlight-jinja"><div class="highlight"><pre><span class="c">{# Generate &lt;link rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/css?family=Rosario&quot; type=&quot;text/css&quot;&gt; #}</span><span class="x"></span>
+<span class="cp">{{</span> <span class="nv">stylesheet_link</span><span class="o">(</span><span class="s2">&quot;https://fonts.googleapis.com/css?family=Rosario&quot;</span><span class="o">,</span> <span class="kp">false</span><span class="o">)</span> <span class="cp">}}</span><span class="x"></span>
 
 <span class="c">{# Generate &lt;link rel=&quot;stylesheet&quot; href=&quot;/your-app/css/styles.css&quot; type=&quot;text/css&quot;&gt; #}</span><span class="x"></span>
 <span class="cp">{{</span> <span class="nv">stylesheet_link</span><span class="o">(</span><span class="s2">&quot;css/styles.css&quot;</span><span class="o">)</span> <span class="cp">}}</span><span class="x"></span>
