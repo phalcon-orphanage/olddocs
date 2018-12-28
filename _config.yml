@@ -1,0 +1,37 @@
+title: Phalcon Documentation
+app:
+  name: Phalcon Documentation
+  author: 'Phalcon Team'
+  description: ''
+  keywords: ''
+  generator: 'Github Pages'
+  avatar: https://avatars3.githubusercontent.com/u/1221505?v=4
+
+social:
+  email: team@phalconphp.com
+  facebook:
+  github: phalcon
+  rss: phalcon
+  twitter: phalconphp
+
+meta:
+  analytics: 'UA-90300500-9'
+
+include:
+  - 'docs'
+
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable: true
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
+
+
